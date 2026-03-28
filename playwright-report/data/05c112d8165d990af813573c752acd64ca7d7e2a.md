@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: 条
+        - generic [ref=e9]:
+          - generic [ref=e10]: 老杨
+          - generic [ref=e11]:
+            - text: "1000"
+            - generic [ref=e12]: 缺条
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - button "tong1" [ref=e45] [cursor=pointer]:
+            - img "tong1" [ref=e48]
+          - button "tong1" [ref=e49] [cursor=pointer]:
+            - img "tong1" [ref=e52]
+          - button "tong1" [ref=e53] [cursor=pointer]:
+            - img "tong1" [ref=e56]
+        - generic [ref=e57]:
+          - button "wan5" [ref=e58] [cursor=pointer]:
+            - img "wan5" [ref=e61]
+          - button "wan5" [ref=e62] [cursor=pointer]:
+            - img "wan5" [ref=e65]
+          - button "wan5" [ref=e66] [cursor=pointer]:
+            - img "wan5" [ref=e69]
+    - generic [ref=e70]:
+      - generic [ref=e72]:
+        - generic [ref=e73]: 西
+        - generic [ref=e74]: 东
+        - generic [ref=e75]: 南
+        - generic [ref=e76]: 北
+        - generic [ref=e77]: "50"
+        - generic [ref=e78]: 剩余
+      - generic [ref=e80]:
+        - generic [ref=e81]: 条
+        - generic [ref=e82]:
+          - generic [ref=e83]: 老张
+          - generic [ref=e84]:
+            - text: "1000"
+            - generic [ref=e85]: 缺条
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - generic [ref=e142]: 万
+          - generic [ref=e143]:
+            - generic [ref=e144]: 老熊
+            - generic [ref=e145]:
+              - text: "1000"
+              - generic [ref=e146]: 缺万
+        - generic [ref=e190]:
+          - button "tiao8" [ref=e191] [cursor=pointer]:
+            - img "tiao8" [ref=e194]
+          - button "tiao8" [ref=e195] [cursor=pointer]:
+            - img "tiao8" [ref=e198]
+          - button "tiao8" [ref=e199] [cursor=pointer]:
+            - img "tiao8" [ref=e202]
+      - generic [ref=e203]:
+        - button "tiao7" [ref=e205] [cursor=pointer]:
+          - img "tiao7" [ref=e208]
+        - button "tiao6" [ref=e210] [cursor=pointer]:
+          - img "tiao6" [ref=e213]
+      - button "tong3" [ref=e216] [cursor=pointer]:
+        - img "tong3" [ref=e219]
+      - button "tiao5" [ref=e222] [cursor=pointer]:
+        - img "tiao5" [ref=e225]
+      - generic [ref=e226]:
+        - button "wan2" [ref=e228] [cursor=pointer]:
+          - img "wan2" [ref=e231]
+        - button "wan3" [ref=e233] [cursor=pointer]:
+          - img "wan3" [ref=e236]
+    - generic [ref=e237]:
+      - generic [ref=e238]:
+        - generic [ref=e239]: 筒
+        - generic [ref=e240]:
+          - generic [ref=e241]: 我庄
+          - generic [ref=e242]:
+            - text: "1000"
+            - generic [ref=e243]: 缺筒
+      - generic [ref=e245]:
+        - button "tong4" [active] [ref=e247] [cursor=pointer]:
+          - img "tong4" [ref=e250]
+        - button "tong5" [ref=e252] [cursor=pointer]:
+          - img "tong5" [ref=e255]
+        - button "tiao1" [ref=e257] [cursor=pointer]:
+          - img "tiao1" [ref=e260]
+        - button "tiao5" [ref=e262] [cursor=pointer]:
+          - img "tiao5" [ref=e265]
+        - button "tiao6" [ref=e267] [cursor=pointer]:
+          - img "tiao6" [ref=e270]
+        - button "wan1" [ref=e272] [cursor=pointer]:
+          - img "wan1" [ref=e275]
+        - button "wan3" [ref=e277] [cursor=pointer]:
+          - img "wan3" [ref=e280]
+        - button "wan3" [ref=e282] [cursor=pointer]:
+          - img "wan3" [ref=e285]
+        - button "wan4" [ref=e287] [cursor=pointer]:
+          - img "wan4" [ref=e290]
+        - button "wan6" [ref=e292] [cursor=pointer]:
+          - img "wan6" [ref=e295]
+        - button "wan7" [ref=e297] [cursor=pointer]:
+          - img "wan7" [ref=e300]
+        - button "wan8" [ref=e302] [cursor=pointer]:
+          - img "wan8" [ref=e305]
+        - button "wan9" [ref=e307] [cursor=pointer]:
+          - img "wan9" [ref=e310]
+  - generic [ref=e311]:
+    - button "碰" [ref=e312] [cursor=pointer]
+    - button "过" [ref=e313] [cursor=pointer]
+```

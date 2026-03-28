@@ -1,0 +1,139 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: 万
+      - generic [ref=e9]:
+        - generic [ref=e10]: 老杨
+        - generic [ref=e11]:
+          - text: "1000"
+          - generic [ref=e12]: 缺万
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: 西
+        - generic [ref=e71]: 东
+        - generic [ref=e72]: 南
+        - generic [ref=e73]: 北
+        - generic [ref=e74]: "33"
+        - generic [ref=e75]: 剩余
+      - generic [ref=e77]:
+        - generic [ref=e78]: 筒
+        - generic [ref=e79]:
+          - generic [ref=e80]: 老张
+          - generic [ref=e81]:
+            - text: "1000"
+            - generic [ref=e82]: 缺筒
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]: 筒
+          - generic [ref=e140]:
+            - generic [ref=e141]: 老熊
+            - generic [ref=e142]:
+              - text: "1000"
+              - generic [ref=e143]: 缺筒
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - button "wan5" [ref=e176] [cursor=pointer]:
+              - img "wan5" [ref=e179]
+            - button "wan5" [ref=e180] [cursor=pointer]:
+              - img "wan5" [ref=e183]
+            - button "wan5" [ref=e184] [cursor=pointer]:
+              - img "wan5" [ref=e187]
+          - generic [ref=e188]:
+            - button "wan8" [ref=e189] [cursor=pointer]:
+              - img "wan8" [ref=e192]
+            - button "wan8" [ref=e193] [cursor=pointer]:
+              - img "wan8" [ref=e196]
+            - button "wan8" [ref=e197] [cursor=pointer]:
+              - img "wan8" [ref=e200]
+      - generic [ref=e201]:
+        - button "wan9" [ref=e203] [cursor=pointer]:
+          - img "wan9" [ref=e206]
+        - button "wan9" [ref=e208] [cursor=pointer]:
+          - img "wan9" [ref=e211]
+        - button "wan3" [ref=e213] [cursor=pointer]:
+          - img "wan3" [ref=e216]
+        - button "tiao3" [ref=e218] [cursor=pointer]:
+          - img "tiao3" [ref=e221]
+      - generic [ref=e222]:
+        - button "tong2" [ref=e224] [cursor=pointer]:
+          - img "tong2" [ref=e227]
+        - button "tong2" [ref=e229] [cursor=pointer]:
+          - img "tong2" [ref=e232]
+        - button "tong5" [ref=e234] [cursor=pointer]:
+          - img "tong5" [ref=e237]
+        - button "tong6" [ref=e239] [cursor=pointer]:
+          - img "tong6" [ref=e242]
+        - button "tong7" [ref=e244] [cursor=pointer]:
+          - img "tong7" [ref=e247]
+        - button "tong9" [ref=e249] [cursor=pointer]:
+          - img "tong9" [ref=e252]
+      - generic [ref=e253]:
+        - button "tong3" [ref=e255] [cursor=pointer]:
+          - img "tong3" [ref=e258]
+        - button "tong8" [ref=e260] [cursor=pointer]:
+          - img "tong8" [ref=e263]
+        - button "tong9" [ref=e265] [cursor=pointer]:
+          - img "tong9" [ref=e268]
+        - button "tong7" [ref=e270] [cursor=pointer]:
+          - img "tong7" [ref=e273]
+        - button "tong5" [ref=e275] [cursor=pointer]:
+          - img "tong5" [ref=e278]
+        - button "tiao3" [ref=e280] [cursor=pointer]:
+          - img "tiao3" [ref=e283]
+      - generic [ref=e284]:
+        - button "tong4" [ref=e286] [cursor=pointer]:
+          - img "tong4" [ref=e289]
+        - button "tong3" [ref=e291] [cursor=pointer]:
+          - img "tong3" [ref=e294]
+        - button "tong7" [ref=e296] [cursor=pointer]:
+          - img "tong7" [ref=e299]
+        - button "tong9" [ref=e301] [cursor=pointer]:
+          - img "tong9" [ref=e304]
+        - button "tiao2" [ref=e306] [cursor=pointer]:
+          - img "tiao2" [ref=e309]
+        - button "tiao6" [ref=e311] [cursor=pointer]:
+          - img "tiao6" [ref=e314]
+    - generic [ref=e315]:
+      - generic [ref=e316]:
+        - generic [ref=e317]: 筒
+        - generic [ref=e318]:
+          - generic [ref=e319]: 我庄
+          - generic [ref=e320]:
+            - text: "1000"
+            - generic [ref=e321]: 缺筒
+      - generic [ref=e323]:
+        - button "tong9" [ref=e325] [cursor=pointer]:
+          - img "tong9" [ref=e328]
+        - button "tiao1" [ref=e330] [cursor=pointer]:
+          - img "tiao1" [ref=e333]
+        - button "tiao1" [ref=e335] [cursor=pointer]:
+          - img "tiao1" [ref=e338]
+        - button "tiao5" [ref=e340] [cursor=pointer]:
+          - img "tiao5" [ref=e343]
+        - button "tiao6" [ref=e345] [cursor=pointer]:
+          - img "tiao6" [ref=e348]
+        - button "tiao6" [ref=e350] [cursor=pointer]:
+          - img "tiao6" [ref=e353]
+        - button "tiao7" [ref=e355] [cursor=pointer]:
+          - img "tiao7" [ref=e358]
+        - button "wan2" [ref=e360] [cursor=pointer]:
+          - img "wan2" [ref=e363]
+        - button "wan2" [ref=e365] [cursor=pointer]:
+          - img "wan2" [ref=e368]
+        - button "wan2" [ref=e370] [cursor=pointer]:
+          - img "wan2" [ref=e373]
+        - button "wan3" [ref=e375] [cursor=pointer]:
+          - img "wan3" [ref=e378]
+        - button "wan4" [ref=e380] [cursor=pointer]:
+          - img "wan4" [ref=e383]
+        - button "wan7" [ref=e385] [cursor=pointer]:
+          - img "wan7" [ref=e388]
+        - button "wan9" [ref=e390] [cursor=pointer]:
+          - img "wan9" [ref=e393]
+  - generic [ref=e394]:
+    - button "碰" [ref=e395] [cursor=pointer]
+    - button "过" [active] [ref=e396] [cursor=pointer]
+```

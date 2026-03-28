@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: 筒
+      - generic [ref=e9]:
+        - generic [ref=e10]: 老杨
+        - generic [ref=e11]:
+          - text: "1000"
+          - generic [ref=e12]: 缺筒
+    - generic [ref=e60]:
+      - button "tiao5" [ref=e61] [cursor=pointer]:
+        - img "tiao5" [ref=e64]
+      - button "tiao5" [ref=e65] [cursor=pointer]:
+        - img "tiao5" [ref=e68]
+      - button "tiao5" [ref=e69] [cursor=pointer]:
+        - img "tiao5" [ref=e72]
+  - generic [ref=e73]:
+    - generic [ref=e75]:
+      - generic [ref=e76]: 西
+      - generic [ref=e77]: 东
+      - generic [ref=e78]: 南
+      - generic [ref=e79]: 北
+      - generic [ref=e80]: "18"
+      - generic [ref=e81]: 剩余
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]: 筒
+        - generic [ref=e85]:
+          - generic [ref=e86]: 老张
+          - generic [ref=e87]:
+            - text: "1000"
+            - generic [ref=e88]: 缺筒
+      - generic [ref=e132]:
+        - button "wan4" [ref=e133] [cursor=pointer]:
+          - img "wan4" [ref=e136]
+        - button "wan4" [ref=e137] [cursor=pointer]:
+          - img "wan4" [ref=e140]
+        - button "wan4" [ref=e141] [cursor=pointer]:
+          - img "wan4" [ref=e144]
+    - generic [ref=e146]:
+      - generic [ref=e147]: 筒
+      - generic [ref=e148]:
+        - generic [ref=e149]: 老熊
+        - generic [ref=e150]:
+          - text: "1000"
+          - generic [ref=e151]: 缺筒
+    - generic [ref=e206]:
+      - button "tong9" [ref=e208] [cursor=pointer]:
+        - img "tong9" [ref=e211]
+      - button "tong3" [ref=e213] [cursor=pointer]:
+        - img "tong3" [ref=e216]
+      - button "tong5" [ref=e218] [cursor=pointer]:
+        - img "tong5" [ref=e221]
+      - button "tong7" [ref=e223] [cursor=pointer]:
+        - img "tong7" [ref=e226]
+      - button "tong1" [ref=e228] [cursor=pointer]:
+        - img "tong1" [ref=e231]
+      - button "tong7" [ref=e233] [cursor=pointer]:
+        - img "tong7" [ref=e236]
+      - button "tong8" [ref=e238] [cursor=pointer]:
+        - img "tong8" [ref=e241]
+      - button "tiao3" [ref=e243] [cursor=pointer]:
+        - img "tiao3" [ref=e246]
+      - button "tong3" [ref=e248] [cursor=pointer]:
+        - img "tong3" [ref=e251]
+    - generic [ref=e252]:
+      - button "tong2" [ref=e254] [cursor=pointer]:
+        - img "tong2" [ref=e257]
+      - button "tong3" [ref=e259] [cursor=pointer]:
+        - img "tong3" [ref=e262]
+      - button "tong8" [ref=e264] [cursor=pointer]:
+        - img "tong8" [ref=e267]
+      - button "tiao3" [ref=e269] [cursor=pointer]:
+        - img "tiao3" [ref=e272]
+      - button "tiao4" [ref=e274] [cursor=pointer]:
+        - img "tiao4" [ref=e277]
+      - button "tiao4" [ref=e279] [cursor=pointer]:
+        - img "tiao4" [ref=e282]
+      - button "tong6" [ref=e284] [cursor=pointer]:
+        - img "tong6" [ref=e287]
+      - button "tiao7" [ref=e289] [cursor=pointer]:
+        - img "tiao7" [ref=e292]
+      - button "tiao8" [ref=e294] [cursor=pointer]:
+        - img "tiao8" [ref=e297]
+    - generic [ref=e298]:
+      - button "tong9" [ref=e300] [cursor=pointer]:
+        - img "tong9" [ref=e303]
+      - button "tong4" [ref=e305] [cursor=pointer]:
+        - img "tong4" [ref=e308]
+      - button "tong8" [ref=e310] [cursor=pointer]:
+        - img "tong8" [ref=e313]
+      - button "tong4" [ref=e315] [cursor=pointer]:
+        - img "tong4" [ref=e318]
+      - button "tong6" [ref=e320] [cursor=pointer]:
+        - img "tong6" [ref=e323]
+      - button "tiao1" [ref=e325] [cursor=pointer]:
+        - img "tiao1" [ref=e328]
+      - button "tiao7" [ref=e330] [cursor=pointer]:
+        - img "tiao7" [ref=e333]
+      - button "tong4" [ref=e335] [cursor=pointer]:
+        - img "tong4" [ref=e338]
+    - generic [ref=e339]:
+      - button "tong7" [ref=e341] [cursor=pointer]:
+        - img "tong7" [ref=e344]
+      - button "tong1" [ref=e346] [cursor=pointer]:
+        - img "tong1" [ref=e349]
+      - button "tong4" [ref=e351] [cursor=pointer]:
+        - img "tong4" [ref=e354]
+      - button "tong2" [ref=e356] [cursor=pointer]:
+        - img "tong2" [ref=e359]
+      - button "tong9" [ref=e361] [cursor=pointer]:
+        - img "tong9" [ref=e364]
+      - button "tiao7" [ref=e366] [cursor=pointer]:
+        - img "tiao7" [ref=e369]
+      - button "wan2" [ref=e371] [cursor=pointer]:
+        - img "wan2" [ref=e374]
+      - button "wan2" [ref=e376] [cursor=pointer]:
+        - img "wan2" [ref=e379]
+  - generic [ref=e380]:
+    - generic [ref=e381]:
+      - generic [ref=e382]: 筒
+      - generic [ref=e383]:
+        - generic [ref=e384]: 我庄
+        - generic [ref=e385]:
+          - text: "1000"
+          - generic [ref=e386]: 缺筒
+    - generic [ref=e388]:
+      - button "tiao8" [ref=e390] [cursor=pointer]:
+        - img "tiao8" [ref=e393]
+      - button "tiao9" [ref=e395] [cursor=pointer]:
+        - img "tiao9" [ref=e398]
+      - button "wan1" [ref=e400] [cursor=pointer]:
+        - img "wan1" [ref=e403]
+      - button "wan1" [ref=e405] [cursor=pointer]:
+        - img "wan1" [ref=e408]
+      - button "wan3" [ref=e410] [cursor=pointer]:
+        - img "wan3" [ref=e413]
+      - button "wan4" [ref=e415] [cursor=pointer]:
+        - img "wan4" [ref=e418]
+      - button "wan5" [ref=e420] [cursor=pointer]:
+        - img "wan5" [ref=e423]
+      - button "wan7" [ref=e425] [cursor=pointer]:
+        - img "wan7" [ref=e428]
+      - button "wan7" [ref=e430] [cursor=pointer]:
+        - img "wan7" [ref=e433]
+      - button "wan7" [ref=e435] [cursor=pointer]:
+        - img "wan7" [ref=e438]
+      - button "wan8" [ref=e440] [cursor=pointer]:
+        - img "wan8" [ref=e443]
+      - button "wan9" [ref=e445] [cursor=pointer]:
+        - img "wan9" [ref=e448]
+      - button "wan9" [ref=e450] [cursor=pointer]:
+        - img "wan9" [ref=e453]
+```

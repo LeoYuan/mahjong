@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mahjong-green: #0d6b3a;
+  --mahjong-green-dark: #094d2a;
+  --mahjong-green-light: #1a8a4e;
+  --mahjong-felt: #0e7a42;
+  --table-border: #6b4226;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #1a1a2e;
+  color: #fff;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 牌桌绿色毛毡 */
+.mahjong-table {
+  background:
+    radial-gradient(ellipse at center, var(--mahjong-green-light) 0%, var(--mahjong-green) 40%, var(--mahjong-green-dark) 100%);
+  position: relative;
+}
+
+/* 牌桌边框木纹 */
+.mahjong-table::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 6px solid var(--table-border);
+  border-radius: inherit;
+  box-shadow:
+    inset 0 0 60px rgba(0, 0, 0, 0.4),
+    0 8px 32px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+/* 中心信息圆盘 */
+.center-disc {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 40, 60, 0.85) 0%, rgba(0, 20, 40, 0.95) 100%);
+  border: 2px solid rgba(100, 200, 255, 0.3);
+  box-shadow:
+    0 0 20px rgba(0, 100, 150, 0.3),
+    inset 0 0 20px rgba(0, 50, 80, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.center-disc::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  border: 1px solid rgba(100, 200, 255, 0.15);
+}
+
+/* 弃牌区域 */
+.discard-zone {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+/* 玩家信息卡片 */
+.player-card {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 6px;
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.player-card.active {
+  box-shadow: 0 0 0 2px #fbbf24, 0 0 12px rgba(251, 191, 36, 0.3);
+}
+
+/* 最后打出的牌闪烁高亮 */
+@keyframes tile-blink {
+  0%, 100% { box-shadow: 0 0 0 2px #fbbf24, 0 0 8px rgba(251, 191, 36, 0.6); }
+  50% { box-shadow: 0 0 0 2px #fbbf24, 0 0 16px rgba(251, 191, 36, 0.9); }
+}
+.tile-highlight {
+  animation: tile-blink 1s ease-in-out infinite;
+  border-radius: 4px;
+}
+
+/* 操作按钮 */
+.action-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.action-btn:hover {
+  transform: scale(1.05);
+}
+
+.action-btn:active {
+  transform: scale(0.98);
+}
