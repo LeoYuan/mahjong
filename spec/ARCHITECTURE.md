@@ -51,7 +51,9 @@ src/
 │   ├── GameTable.tsx    # 游戏主界面
 │   ├── QueYiPanel.tsx   # 定缺面板
 │   ├── ActionPanel.tsx  # 操作按钮面板
-│   └── GameInfo.tsx     # 游戏信息面板
+│   ├── GameInfo.tsx     # 游戏信息面板
+│   ├── RecordsModal.tsx # 战绩查询弹窗
+│   └── ConfettiCelebration.tsx # 撒花庆祝动画
 ├── stores/              # 状态管理层
 │   └── gameStore.ts     # 游戏状态管理
 ├── utils/               # 工具函数层
@@ -73,7 +75,9 @@ App
     ├── Player (right)    # 右侧玩家
     ├── Player (bottom)   # 底部玩家（自己）
     │   └── Tile[]        # 手牌
-    └── ActionPanel       # 操作按钮
+    ├── ActionPanel       # 操作按钮
+    ├── RecordsModal      # 战绩查询弹窗（条件渲染）
+    └── ConfettiCelebration # 撒花动画（条件渲染）
 
 QueYiPanel               # 定缺弹窗（覆盖层）
 ```
@@ -89,15 +93,20 @@ interface GameStore {
   gameState: GameState;       // 游戏状态
   currentUserIndex: number;   // 自己是第几位
   tingTiles: Tile[];          // 听牌提示
+  luckyMode: boolean;         // 是否手气模式
+  gameRecords: GameRecord[];  // 战绩记录
+  roundNumber: number;        // 当前局数
 
   // Actions
   startGame: () => void;
+  startLuckyGame: () => void;
   selectQueYi: (suit: Suit) => void;
   discardTile: (tileId: string) => void;
   pengTile: () => void;
-  gangTile: (type: 'ming' | 'an') => void;
+  gangTile: (type: 'ming' | 'an' | 'bu') => void;
   huTile: () => void;
   passAction: () => void;
+  clearRecords: () => void;
 }
 ```
 
@@ -267,20 +276,40 @@ interface PlayerProps {
 
 ### 9.1 未来可扩展功能
 
-| 功能 | 扩展点 |
-|------|--------|
-| 联机对战 | 添加 WebSocket 层，替换本地状态 |
-| 更多番型 | 扩展 `canHu` 函数，添加番型计算 |
-| 好友系统 | 添加用户认证模块 |
-| 战绩统计 | 添加本地存储或后端 API |
+| 功能 | 扩展点 | 状态 |
+|------|--------|------|
+| 联机对战 | 添加 WebSocket 层，替换本地状态 | 待实现 |
+| 更多番型 | 扩展 `canHu` 函数，添加番型计算 | 已实现基础番型 |
+| 好友系统 | 添加用户认证模块 | 待实现 |
+| 战绩统计 | 添加本地存储或后端 API | 已实现本地存储 |
+| 手气模式 | 添加快速游戏模式 | 已实现 |
+| 撒花动画 | 添加游戏庆祝效果 | 已实现 |
 
-### 9.2 模块化设计
+### 9.2 已实现的扩展功能
+
+#### 战绩系统
+- 使用 localStorage 存储战绩
+- 每局游戏结束自动记录
+- 支持查看历史对局和清空战绩
+
+#### 手气模式
+- 快速游戏模式，胡牌即结束
+- 不计分，纯娱乐
+- 带撒花庆祝动画
+
+#### 杠牌计分
+- 明杠、暗杠、补杠均支持计分
+- 手气模式下自动禁用计分
+
+### 9.3 模块化设计
 - 游戏逻辑与 UI 分离
 - 状态管理集中，便于迁移到服务端
+- 组件化设计，易于扩展新功能
 
 ## 10. 更新记录
 
 | 日期 | 版本 | 变更 |
 |------|------|------|
-| 2026-03-22 | v1.0 | 初始架构设计 |
+| 2026-03-28 | v1.2 | 添加战绩系统、手气模式、撒花动画、杠牌计分 |
 | 2026-03-22 | v1.1 | 添加定缺功能架构 |
+| 2026-03-22 | v1.0 | 初始架构设计 |

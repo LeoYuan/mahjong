@@ -13,6 +13,59 @@
 
 ---
 
+## 2026-03-28
+
+### v1.2
+
+**新增：战绩系统**
+- 类型: 新增
+- 需求文档: SRS.md 2.4 节
+- 技术文档: ARCHITECTURE.md 3.3 节、9.2 节
+- 代码变更:
+  - `src/types/index.ts`: 添加 `GameRecord` 类型
+  - `src/stores/gameStore.ts`: 添加战绩记录逻辑
+  - `src/components/RecordsModal.tsx`: 新建战绩查询弹窗
+  - `src/components/GameTable.tsx`: 添加战绩查询入口
+
+**新增：手气模式**
+- 类型: 新增
+- 需求文档: SRS.md 2.2.2 节
+- 技术文档: ARCHITECTURE.md 9.2 节
+- 代码变更:
+  - `src/stores/gameStore.ts`: 添加 `startLuckyGame` action
+  - `src/stores/gameStore.ts`: 手气模式下禁用杠牌计分
+  - `src/components/GameTable.tsx`: 添加手气模式入口
+
+**新增：撒花庆祝动画**
+- 类型: 新增
+- 需求文档: SRS.md 2.7.6 节
+- 代码变更:
+  - `src/components/ConfettiCelebration.tsx`: 新建撒花动画组件
+  - `src/components/GameTable.tsx`: 结算页集成撒花动画
+
+**新增：杠牌计分**
+- 类型: 新增
+- 需求文档: SRS.md 2.3.3 节
+- 代码变更:
+  - `src/stores/gameStore.ts`: 明杠、暗杠、补杠计分逻辑
+  - `src/stores/gameStore.ts`: 流局时退杠分逻辑
+
+**新增：点击过按钮消失**
+- 类型: 新增
+- 需求文档: SRS.md 2.5.4 节
+- 代码变更:
+  - `src/stores/gameStore.ts`: 优化 `passAction` 逻辑
+
+**新增：首页更多菜单**
+- 类型: 新增
+- 需求文档: SRS.md 2.7.5 节
+- 代码变更:
+  - `src/components/GameTable.tsx`: 添加"更多"下拉菜单
+  - 战绩查询、重置分数放入菜单
+  - 点击空白处收起菜单
+
+---
+
 ## 2026-03-22
 
 ### v1.1
